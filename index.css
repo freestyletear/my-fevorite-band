@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
 * {
   padding: 0;
@@ -13,6 +12,7 @@ html {
 }
 a {
   text-decoration: none;
+  color: orange;
 }
 .container {
   min-height: 100vh;
@@ -65,7 +65,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 2rem;
   margin-top: 30px;
-
   transition: 0.3s ease;
   transition-property: background-color, color;
 }
@@ -124,9 +123,7 @@ a {
   text-align: center;
   color: darkslateblue;
   text-decoration: none;
-  font-size: 80px;
-  font-family: "Nosifer", normal;
-}
+  font-size: 80px;}
 .band-art-work {
   display: block;
   margin-left: auto;
@@ -147,10 +144,7 @@ a {
 .artist-name {
   text-align: center;
   color: darkslateblue;
-
-  font-size: 40px;
-  font-family: "Nosifer", normal;
-}
+  font-size: 40px;}
 footer {
   font-weight: 600px;
   font-size: larger;
